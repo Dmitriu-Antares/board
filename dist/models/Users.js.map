@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/models/Users.js"],"names":["Users","Model","extend","tableName"],"mappings":";;;;;;;AAAA;;;;;;AAEO,IAAMA,wBAAQ,oBAAUC,KAAV,CAAgBC,MAAhB,CAAuB;AACxCC,eAAW;AAD6B,CAAvB,CAAd","file":"Users.js","sourcesContent":["import bookshelf from '../../bookshelf';\n\nexport const Users = bookshelf.Model.extend({\n    tableName: 'users'\n});"]}

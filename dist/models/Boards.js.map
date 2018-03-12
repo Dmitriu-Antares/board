@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/models/Boards.js"],"names":["Boards","Model","extend","tableName"],"mappings":";;;;;;;AAAA;;;;;;AAEO,IAAMA,0BAAS,oBAAUC,KAAV,CAAgBC,MAAhB,CAAuB;AACzCC,eAAW;AAD8B,CAAvB,CAAf","file":"Boards.js","sourcesContent":["import bookshelf from '../../bookshelf';\n\nexport const Boards = bookshelf.Model.extend({\n    tableName: 'boards'\n});"]}
