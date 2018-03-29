@@ -4,6 +4,7 @@ import express from 'express';
 const router = express.Router();
 
 router.post('/create', (req,res) => {
+    // add bearer проверку на юзера, чтобы нельзя было создавать изнепойми откуда.
     const { user, name } = req.body;
     Boards.forge({name,adminID:user},{hasTimestamps:true}).save()
         .then( table => {
